@@ -615,7 +615,34 @@ Download_SSR(){
 Service_SSR(){
 	if [[ ${release} = "centos" ]]; then
 		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
-			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !" && exit 1
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
+		fi
+		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
+		fi
+		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
+		fi
+		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
+		fi
+		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
+		fi
+		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
+		fi
+		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
+		fi
+		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
+		fi
+		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
+		fi
+		if ! wget --no-check-certificate https://github.com/ToyoDAdoubi/doubi/raw/master/service/ssr_centos -O /etc/init.d/ssr; then
+			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !"
 		fi
 		chmod +x /etc/init.d/ssr
 		chkconfig --add ssr
